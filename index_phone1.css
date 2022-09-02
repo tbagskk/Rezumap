@@ -1,0 +1,278 @@
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+	font-family: Poppins;
+	background: url("background.png");
+	background-size: contain;
+	
+	background-repeat: no-repeat;
+	
+	border: 5px solid black;
+
+}
+a
+{
+	text-decoration: none;
+}
+h1
+{
+	font-size: 5vw;
+}
+h2
+{
+	font-size: 2vw;
+	color: #8d8c92;
+	font-weight: 500;
+}
+.rezumap
+{
+	font-size: 4vw;
+	font-weight: 700;
+}
+.header
+{
+	
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-attachment: fixed;
+	margin-top: 10px;
+	
+
+}
+.header2
+{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-attachment: fixed;
+	background: white;
+	margin-top: 10px;
+	
+}
+.logo
+{
+	
+	
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.logo_img
+{
+	height: 50px;
+}
+.nav_bar
+{
+	
+	height: 80px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	border: 5px solid black;
+	margin-left: 10px;
+	display: none;
+
+}
+.connection
+{
+	
+	height: 80px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-right: 10%;
+
+}
+.logo_box
+{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-left: 10%;
+	
+
+}
+.button_header
+{
+	height: 40px;
+	width: 12vw;
+	border-radius: 15px;
+	border: none;
+	margin: 10px;
+	color: #8d8c92;
+	font-weight: 700;
+	background: #EFEFEF;
+
+}
+.button_header:hover
+{
+	cursor: pointer;
+}
+.button_header2
+{
+	height: 40px;
+	width: 12vw;
+	border-radius: 15px;
+	border: none;
+	margin: 10px;
+	color: white;
+	font-weight: 700;
+	background: #2dcfd1;
+}
+.button_header2:hover
+{
+	cursor: pointer;
+}
+.box1
+{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	
+
+}
+.box1_left
+{
+	
+
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+	padding: 20px;
+
+
+}
+.box1_right
+{
+	
+
+	
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.carte_img
+{
+	height: 40vw
+}
+.box_box1
+{
+	
+	
+}
+.nav_bar_p
+{
+	margin: 10px;
+	font-weight: 500;
+	color: black;
+	font-size: 0.8em;
+}
+.nav_bar_p:hover
+{
+	text-decoration: underline;
+}
+.box_left_button
+{
+	
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+
+}
+.button_left
+{
+	height: 50px;
+	width: 15vw;
+	border-radius: 20px;
+	border: none;
+	background: #2dcfd1;
+	color: white;
+	font-weight: 700;
+	margin-left: 10px;
+	
+}
+.button_left:hover
+{
+	cursor: pointer;
+}
+.box2
+{
+	height: 900px;
+	background-color: black;
+	display: flex;
+	justify-content: center;align-items: center;
+}
+.foot
+{
+	height: 300px;
+	background-color: #2dcfd1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot_box
+{
+	
+	height: 250px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+.copyright
+{
+	border-top: 1px solid black;
+	height: 40px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.copyright_p
+{
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.mapp
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid black;
+
+}
